@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.first_calculate{
+    /* border: 1px solid black; */
+    height: 100vh;  
+    background-image: url(https://img.freepik.com/free-vector/gradient-summer-background_52683-63635.jpg?w=900&t=st=1715957404~exp=1715958004~hmac=ab3504fd239b83bff5dfc262cb723fb560bc0c4f048025a4b162b7107189f4f5);
+    background-position: center;
+    background-size: cover;
+}
+.first_calculate .second_calculate{
+    /* border: 1px solid black; */
+    height: 40vh;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+box-shadow: 1px 1px 14px 5px rgb(1, 35, 127);
+background-image: url(https://img.freepik.com/free-vector/colorful-palm-silhouettes-background_23-2148541792.jpg?w=900&t=st=1715957194~exp=1715957794~hmac=1bd4108f373242da5e96e83faf442328eff0df57abf054d5b4e82336a8e542aa);
+background-position: center;
+background-size: cover;
+}
+.second_calculate h1{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.second_calculate .second_box_calculate{
+    width: 100%;
+    height: 20vh;
+    /* border: 1px solid black; */
+    margin-top: 60px;
+    border-radius: 20px;
+    background-image: url(https://img.freepik.com/free-photo/vivid-blurred-colorful-background_58702-2515.jpg?w=900&t=st=1715957725~exp=1715958325~hmac=e0fb3d04c19e628a3411754a971506229c29094e754e9a693ff3576dc24d2ca5);
+   filter: blur(2px); 
+   opacity: 0.5;   
+}
+.numbers{
+    position: relative;
+    top: -100px;
+    width: 100%;
+    padding-left: 20px;
+    height: 70px;
+    background-color: transparent;
+    /* background-color: none; */
+    /* opacity: 0.3; */
+    border: none;
+    font-size: 50px;
+    outline: none;
+    color: white;
+    font-weight: bold;
+}
+.numbers::placeholder{
+    font-size: 60px;
+  padding-top: 50px;
+    color: white;
+   
+}
+.first_calculate .third_calculate{
+    /* border: 1px solid black; */
+    height: 10vh;
+    /* border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px; */
+    
+}
+.third_calculate .fa-box-archive{
+    font-size: 25px;
+    padding: 30px;
+}
+.first_calculate .forth_calculate{
+    /* border: 1px solid black; */
+    height: 50vh;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;   
+    box-shadow: 1px 1px 14px 5px rgb(1, 35, 127);
+    /* background-color: rgb(23, 76, 149); */
+    background-image: url(https://img.freepik.com/premium-vector/gradient-summer-background-videocalls_23-2148933084.jpg?w=900);
+    background-position: center;
+    background-size: cover;
+}
+.forth_calculate .forth_button_calculate{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+  flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-items: center; */
+    /* border: 1px solid black; */
+    /* justify-content: center; */
+    /* align-items: center; */
+   
+}
+.forth_button_calculate .ac_btnn{
+    background-color: transparent;
+    opacity: 0.8;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    height: 50px;
+    /* margin: 20px; */
+    padding: 30px;
+    border-radius: 40%;
+    border: 1px solid white;
+    color: white;
+}
+.forth_button_calculate .ac_btnn:hover{
+    background-color: rgb(207, 63, 28);
+    color: white;
+}
